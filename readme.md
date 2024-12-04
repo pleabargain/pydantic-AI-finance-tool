@@ -1,4 +1,7 @@
-# Stock Price AI Assistant
+# Stock Price AI Assistant using pydantic-AI, Gradio, and Groq
+
+inspired by:
+https://www.youtube.com/watch?v=1lBpIbRafvI
 
 
 https://github.com/pleabargain/pydantic-AI-finance-tool
