@@ -1,0 +1,39 @@
+2024-12-04 09:53:14,267 - griffe - WARNING - <module>:7: No type or annotation for returned value 'dict'
+2024-12-04 09:53:14,542 - __main__ - INFO - Starting Stock Price AI Assistant
+2024-12-04 09:53:15,423 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-04 09:53:15,558 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-04 09:53:16,036 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-04 09:53:53,757 - __main__ - INFO - Processing query: ETF
+2024-12-04 09:53:55,373 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 09:53:55,378 - __main__ - INFO - Fetching price for symbol: ETF
+2024-12-04 09:54:01,086 - yfinance - ERROR - $ETF: possibly delisted; no price data found  (period=1y)
+2024-12-04 09:54:01,112 - __main__ - ERROR - Error processing query: type NoneType doesn't define __round__ method
+2024-12-04 09:56:17,621 - httpx - INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+2024-12-04 09:56:18,113 - griffe - WARNING - <module>:7: No type or annotation for returned value 'dict'
+2024-12-04 09:56:18,332 - __main__ - INFO - Starting Stock Price AI Assistant
+2024-12-04 09:56:18,978 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-04 09:56:18,998 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-04 09:56:19,636 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-04 09:56:45,134 - root - INFO - Processing query: What is the current price of oil?
+2024-12-04 09:56:45,134 - root - ERROR - Error processing query: name 'symbol' is not defined
+2024-12-04 09:56:58,059 - root - INFO - Processing query: current price of Ford
+2024-12-04 09:56:58,059 - root - ERROR - Error processing query: name 'symbol' is not defined
+2024-12-04 09:57:03,794 - root - INFO - Processing query: current price of Apple
+2024-12-04 09:57:03,795 - root - ERROR - Error processing query: name 'symbol' is not defined
+2024-12-04 09:57:06,930 - root - INFO - Processing query: current price of Apple
+2024-12-04 09:57:06,931 - root - ERROR - Error processing query: name 'symbol' is not defined
+2024-12-04 10:01:07,641 - httpx - INFO - HTTP Request: GET https://api.gradio.app/gradio-messaging/en "HTTP/1.1 200 OK"
+2024-12-04 10:01:07,885 - griffe - WARNING - <module>:7: No type or annotation for returned value 'dict'
+2024-12-04 10:01:08,061 - __main__ - INFO - Starting Stock Price AI Assistant
+2024-12-04 10:01:08,571 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-04 10:01:08,588 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-04 10:01:09,441 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-04 10:01:37,252 - __main__ - INFO - Processing query: SMTC
+2024-12-04 10:01:38,493 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 10:01:38,498 - __main__ - INFO - Fetching price for symbol: SMTC
+2024-12-04 10:01:41,735 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 10:01:52,005 - __main__ - INFO - Processing query: news about SMTC?
+2024-12-04 10:01:52,009 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.441541 seconds
+2024-12-04 10:01:53,689 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 10:01:53,691 - __main__ - INFO - Fetching price for symbol: SMTC
+2024-12-04 10:01:54,692 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
