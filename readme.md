@@ -1,5 +1,12 @@
 # Stock Price AI Assistant
 
+
+https://github.com/pleabargain/pydantic-AI-finance-tool
+
+https://www.gradio.app/
+
+https://groq.com/
+
 A web application built with Gradio that provides real-time stock price information using natural language queries.
 
 ## Features
@@ -17,6 +24,7 @@ A web application built with Gradio that provides real-time stock price informat
   - pydantic-ai
   - yfinance
   - gradio
+  - groq api key 
 
 ## Installation
 
